@@ -1,0 +1,391 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "478e89e0-3a8d-413e-ba3a-dfed705f1068",
+          "name": "e_goLoginPage",
+          "sourceVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+          "targetVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5"
+        },
+        {
+          "id": "22743ab2-cccb-48ea-ab60-cbd38e438097",
+          "name": "e_typeCredentials",
+          "sourceVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+          "targetVertexId": "5e5d71a6-29cd-42db-b539-29b515643858"
+        },
+        {
+          "id": "074418cd-7ebe-48a7-ae38-596498d01d49",
+          "name": "e_logout",
+          "sourceVertexId": "5e5d71a6-29cd-42db-b539-29b515643858",
+          "targetVertexId": "ffc85707-27df-4284-b822-e200809683d8"
+        },
+        {
+          "id": "e6a7be73-d204-4f61-ac3b-34e7b8ae365b",
+          "name": "e_clickContinue",
+          "sourceVertexId": "ffc85707-27df-4284-b822-e200809683d8",
+          "targetVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3"
+        },
+        {
+          "id": "710861f8-d806-4dab-b0e1-95ed1497a375",
+          "name": "e_reLogin",
+          "sourceVertexId": "ffc85707-27df-4284-b822-e200809683d8",
+          "targetVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5"
+        },
+        {
+          "id": "ec7a4ccf-8b36-4ec1-a2b5-317ef8134507",
+          "name": "e_goHomePage",
+          "sourceVertexId": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+          "targetVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "88c34d04-118d-43fb-9467-db2f446ffd10",
+      "name": "loginFunctionality",
+      "startElementId": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+      "vertices": [
+        {
+          "id": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+          "name": "v_homePage",
+          "properties": {
+            "x": 194,
+            "y": 58
+          }
+        },
+        {
+          "id": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+          "name": "v_loginPage",
+          "properties": {
+            "x": 454,
+            "y": 56
+          }
+        },
+        {
+          "id": "ffc85707-27df-4284-b822-e200809683d8",
+          "name": "v_closeAccount",
+          "properties": {
+            "x": 54,
+            "y": 257
+          }
+        },
+        {
+          "id": "5e5d71a6-29cd-42db-b539-29b515643858",
+          "name": "v_openAccount",
+          "properties": {
+            "x": 457,
+            "y": 261
+          }
+        },
+        {
+          "id": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+          "name": "v_StartVertex",
+          "properties": {
+            "x": -135.90341731432213,
+            "y": 59.51607844527337
+          }
+        }
+      ],
+      "editor": {
+        "elements": {
+          "edges": [
+            {
+              "data": {
+                "id": "ec7a4ccf-8b36-4ec1-a2b5-317ef8134507",
+                "name": "e_goHomePage",
+                "source": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+                "target": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "e6a7be73-d204-4f61-ac3b-34e7b8ae365b",
+                "name": "e_clickContinue",
+                "source": "ffc85707-27df-4284-b822-e200809683d8",
+                "target": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "074418cd-7ebe-48a7-ae38-596498d01d49",
+                "name": "e_logout",
+                "source": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "target": "ffc85707-27df-4284-b822-e200809683d8",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "478e89e0-3a8d-413e-ba3a-dfed705f1068",
+                "name": "e_goLoginPage",
+                "source": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "target": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "710861f8-d806-4dab-b0e1-95ed1497a375",
+                "name": "e_reLogin",
+                "source": "ffc85707-27df-4284-b822-e200809683d8",
+                "target": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "22743ab2-cccb-48ea-ab60-cbd38e438097",
+                "name": "e_typeCredentials",
+                "source": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "target": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            }
+          ],
+          "nodes": [
+            {
+              "data": {
+                "id": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+                "name": "v_StartVertex",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": -135.90341731432213,
+                "y": 59.51607844527337
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "name": "v_openAccount",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 457,
+                "y": 261
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "name": "v_homePage",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 194,
+                "y": 58
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "name": "v_loginPage",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 454,
+                "y": 56
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "ffc85707-27df-4284-b822-e200809683d8",
+                "name": "v_closeAccount",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": 54,
+                "y": 257
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            }
+          ]
+        },
+        "style": [
+          {
+            "selector": "core",
+            "style": {
+              "active-bg-size": "0px"
+            }
+          },
+          {
+            "selector": "node",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "text-valign": "center",
+              "text-halign": "center",
+              "shape": "roundrectangle",
+              "width": "label",
+              "height": "label",
+              "color": "rgb(0,0,0)",
+              "background-color": "data(color)",
+              "line-color": "data(color)",
+              "padding": "10px"
+            }
+          },
+          {
+            "selector": "edge",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "curve-style": "bezier",
+              "text-rotation": "autorotate",
+              "target-arrow-shape": "triangle",
+              "width": "4px",
+              "line-color": "data(color)",
+              "target-arrow-color": "data(color)",
+              "background-color": "data(color)"
+            }
+          },
+          {
+            "selector": ":loop",
+            "style": {
+              "curve-style": "unbundled-bezier",
+              "control-point-step-size": "60px"
+            }
+          },
+          {
+            "selector": ":selected",
+            "style": {
+              "border-width": "4px",
+              "border-color": "rgb(0,0,0)",
+              "line-color": "rgb(0,0,0)",
+              "target-arrow-color": "rgb(0,0,0)"
+            }
+          }
+        ],
+        "data": {},
+        "zoomingEnabled": true,
+        "userZoomingEnabled": true,
+        "zoom": 1,
+        "minZoom": 1e-50,
+        "maxZoom": 1e+50,
+        "panningEnabled": true,
+        "userPanningEnabled": true,
+        "pan": {
+          "x": 306,
+          "y": 2
+        },
+        "boxSelectionEnabled": true,
+        "renderer": {
+          "name": "canvas"
+        }
+      }
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": null
+}

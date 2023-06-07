@@ -1,0 +1,821 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "62e1e4bc-4a24-4530-9e0b-26aaa528dd7d",
+          "name": "e_goHomePage",
+          "sourceVertexId": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+          "targetVertexId": "820e2ca4-373d-465e-af39-981acd5fdb5d"
+        },
+        {
+          "id": "401976bf-d1d7-4282-aa22-40ae629f9b2f",
+          "name": "e_goSelectedCategory",
+          "sourceVertexId": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+          "targetVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813"
+        },
+        {
+          "id": "34b43d33-8ee2-4bfe-ab6a-43a915f0e8cf",
+          "name": "e_goSelectedProduct",
+          "sourceVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813",
+          "targetVertexId": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1"
+        },
+        {
+          "id": "eaddb910-b3b2-44f2-aab1-2c6da058a647",
+          "name": "e_goBackHomePage",
+          "sourceVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813",
+          "targetVertexId": "820e2ca4-373d-465e-af39-981acd5fdb5d"
+        },
+        {
+          "id": "d163d748-2fb4-42f2-a312-6242078380b3",
+          "name": "e_goBackSelectedCategory",
+          "sourceVertexId": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+          "targetVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "b9228e0e-ad2c-4176-8836-ea11f7bc4c77",
+      "name": "searchProduct",
+      "startElementId": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+      "vertices": [
+        {
+          "id": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+          "name": "v_StartVertex",
+          "properties": {
+            "x": -321.2473762661401,
+            "y": 1.2041643699647508
+          }
+        },
+        {
+          "id": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+          "name": "v_homePage",
+          "properties": {
+            "x": -16.795555594941106,
+            "y": -2.74207279140105
+          }
+        },
+        {
+          "id": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+          "name": "v_selectedProduct",
+          "properties": {
+            "x": 357.3958406344813,
+            "y": 325.43542318096115
+          }
+        },
+        {
+          "id": "c2541417-dd63-4769-95f9-b9178ea0e813",
+          "name": "v_selectedCategoryPage",
+          "properties": {
+            "x": 344.097086748847,
+            "y": -3.064649823206267
+          }
+        }
+      ],
+      "editor": {
+        "elements": {
+          "edges": [
+            {
+              "data": {
+                "id": "2f76d71d-a846-4130-b7e5-a6574f96af00",
+                "name": "e_logout",
+                "source": "acb545e6-f304-4ce1-a69f-db3b99220bea",
+                "target": "7af059fc-c22c-4eb2-a93e-55f3845fb6cd",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": true,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "34682acc-7b70-415c-ab26-4a27b0d4a076",
+                "name": "e_goSelectedCategory",
+                "source": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+                "target": "dcd58c8d-777e-4586-b1c8-9fb744512f0c",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "a326e2a3-de28-4733-8fed-f5d4c93c6095",
+                "name": "e_goSelectedProduct",
+                "source": "dcd58c8d-777e-4586-b1c8-9fb744512f0c",
+                "target": "acb545e6-f304-4ce1-a69f-db3b99220bea",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "401976bf-d1d7-4282-aa22-40ae629f9b2f",
+                "name": "e_goLoginPage",
+                "source": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "target": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "34b43d33-8ee2-4bfe-ab6a-43a915f0e8cf",
+                "name": "e_typeCredentials",
+                "source": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "target": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "59db8179-412c-4b1e-ade5-5c4c82f303b1",
+                "name": "e_NewEdge",
+                "source": "acb545e6-f304-4ce1-a69f-db3b99220bea",
+                "target": "dcd58c8d-777e-4586-b1c8-9fb744512f0c",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "62e1e4bc-4a24-4530-9e0b-26aaa528dd7d",
+                "name": "e_goHomePage",
+                "source": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+                "target": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            }
+          ],
+          "nodes": [
+            {
+              "data": {
+                "id": "acb545e6-f304-4ce1-a69f-db3b99220bea",
+                "name": "v_selectedProduct",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -163.6674343362239,
+                "y": 125.03626274014228
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "dcd58c8d-777e-4586-b1c8-9fb744512f0c",
+                "name": "v_selectedCategory",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 39.411600034790084,
+                "y": 303.02994777861505
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7af059fc-c22c-4eb2-a93e-55f3845fb6cd",
+                "name": "v_closeAccount",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 113.70218849241017,
+                "y": 77.78496646745677
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "name": "v_loginPage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 437.09708674884706,
+                "y": -11.06464982320627
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+                "name": "v_StartVertex",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": -155.24737626614015,
+                "y": -15.79583563003525
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "name": "v_homePage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 171.2044444050589,
+                "y": -16.74207279140105
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+                "name": "v_openAccount",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 281.3958406344813,
+                "y": 215.43542318096112
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            }
+          ]
+        },
+        "style": [
+          {
+            "selector": "core",
+            "style": {
+              "active-bg-size": "0px"
+            }
+          },
+          {
+            "selector": "node",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "text-valign": "center",
+              "text-halign": "center",
+              "shape": "roundrectangle",
+              "width": "label",
+              "height": "label",
+              "color": "rgb(0,0,0)",
+              "background-color": "data(color)",
+              "line-color": "data(color)",
+              "padding": "10px"
+            }
+          },
+          {
+            "selector": "edge",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "curve-style": "bezier",
+              "text-rotation": "autorotate",
+              "target-arrow-shape": "triangle",
+              "width": "4px",
+              "line-color": "data(color)",
+              "target-arrow-color": "data(color)",
+              "background-color": "data(color)"
+            }
+          },
+          {
+            "selector": ":loop",
+            "style": {
+              "curve-style": "unbundled-bezier",
+              "control-point-step-size": "60px"
+            }
+          },
+          {
+            "selector": ":selected",
+            "style": {
+              "border-width": "4px",
+              "border-color": "rgb(0,0,0)",
+              "line-color": "rgb(0,0,0)",
+              "target-arrow-color": "rgb(0,0,0)"
+            }
+          }
+        ],
+        "data": {},
+        "zoomingEnabled": true,
+        "userZoomingEnabled": true,
+        "zoom": 1,
+        "minZoom": 1e-50,
+        "maxZoom": 1e+50,
+        "panningEnabled": true,
+        "userPanningEnabled": true,
+        "pan": {
+          "x": 420,
+          "y": 55
+        },
+        "boxSelectionEnabled": true,
+        "renderer": {
+          "name": "canvas"
+        }
+      }
+    },
+    {
+      "edges": [
+        {
+          "id": "478e89e0-3a8d-413e-ba3a-dfed705f1068",
+          "name": "e_goLoginPage",
+          "sourceVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+          "targetVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5"
+        },
+        {
+          "id": "22743ab2-cccb-48ea-ab60-cbd38e438097",
+          "name": "e_typeCredentials",
+          "sourceVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+          "targetVertexId": "5e5d71a6-29cd-42db-b539-29b515643858"
+        },
+        {
+          "id": "074418cd-7ebe-48a7-ae38-596498d01d49",
+          "name": "e_logout",
+          "sourceVertexId": "5e5d71a6-29cd-42db-b539-29b515643858",
+          "targetVertexId": "ffc85707-27df-4284-b822-e200809683d8"
+        },
+        {
+          "id": "e6a7be73-d204-4f61-ac3b-34e7b8ae365b",
+          "name": "e_clickContinue",
+          "sourceVertexId": "ffc85707-27df-4284-b822-e200809683d8",
+          "targetVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3"
+        },
+        {
+          "id": "710861f8-d806-4dab-b0e1-95ed1497a375",
+          "name": "e_reLogin",
+          "sourceVertexId": "ffc85707-27df-4284-b822-e200809683d8",
+          "targetVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5"
+        },
+        {
+          "id": "ec7a4ccf-8b36-4ec1-a2b5-317ef8134507",
+          "name": "e_goHomePage",
+          "sourceVertexId": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+          "targetVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "88c34d04-118d-43fb-9467-db2f446ffd10",
+      "name": "login",
+      "startElementId": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+      "vertices": [
+        {
+          "id": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+          "name": "v_homePage",
+          "properties": {
+            "x": 194,
+            "y": 58
+          }
+        },
+        {
+          "id": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+          "name": "v_loginPage",
+          "properties": {
+            "x": 454,
+            "y": 56
+          }
+        },
+        {
+          "id": "ffc85707-27df-4284-b822-e200809683d8",
+          "name": "v_closeAccount",
+          "properties": {
+            "x": 54,
+            "y": 257
+          }
+        },
+        {
+          "id": "5e5d71a6-29cd-42db-b539-29b515643858",
+          "name": "v_openAccount",
+          "properties": {
+            "x": 457,
+            "y": 261
+          }
+        },
+        {
+          "id": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+          "name": "v_StartVertex",
+          "properties": {
+            "x": -135.90341731432213,
+            "y": 59.51607844527337
+          }
+        }
+      ],
+      "editor": {
+        "elements": {
+          "nodes": [
+            {
+              "data": {
+                "id": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "name": "v_homePage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 194,
+                "y": 58
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "name": "v_loginPage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 454,
+                "y": 56
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "ffc85707-27df-4284-b822-e200809683d8",
+                "name": "v_closeAccount",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 54,
+                "y": 257
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "name": "v_openAccount",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 457,
+                "y": 261
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+                "name": "v_StartVertex",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": -135.90341731432213,
+                "y": 59.51607844527337
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            }
+          ],
+          "edges": [
+            {
+              "data": {
+                "id": "478e89e0-3a8d-413e-ba3a-dfed705f1068",
+                "name": "e_goLoginPage",
+                "source": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "target": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "22743ab2-cccb-48ea-ab60-cbd38e438097",
+                "name": "e_typeCredentials",
+                "source": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "target": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "074418cd-7ebe-48a7-ae38-596498d01d49",
+                "name": "e_logout",
+                "source": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "target": "ffc85707-27df-4284-b822-e200809683d8",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "e6a7be73-d204-4f61-ac3b-34e7b8ae365b",
+                "name": "e_clickContinue",
+                "source": "ffc85707-27df-4284-b822-e200809683d8",
+                "target": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "710861f8-d806-4dab-b0e1-95ed1497a375",
+                "name": "e_reLogin",
+                "source": "ffc85707-27df-4284-b822-e200809683d8",
+                "target": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "ec7a4ccf-8b36-4ec1-a2b5-317ef8134507",
+                "name": "e_goHomePage",
+                "source": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+                "target": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            }
+          ]
+        },
+        "style": [
+          {
+            "selector": "core",
+            "style": {
+              "active-bg-size": "0px"
+            }
+          },
+          {
+            "selector": "node",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "text-valign": "center",
+              "text-halign": "center",
+              "shape": "roundrectangle",
+              "width": "label",
+              "height": "label",
+              "color": "rgb(0,0,0)",
+              "background-color": "data(color)",
+              "line-color": "data(color)",
+              "padding": "10px"
+            }
+          },
+          {
+            "selector": "edge",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "curve-style": "bezier",
+              "text-rotation": "autorotate",
+              "target-arrow-shape": "triangle",
+              "width": "4px",
+              "line-color": "data(color)",
+              "target-arrow-color": "data(color)",
+              "background-color": "data(color)"
+            }
+          },
+          {
+            "selector": ":loop",
+            "style": {
+              "curve-style": "unbundled-bezier",
+              "control-point-step-size": "60px"
+            }
+          },
+          {
+            "selector": ":selected",
+            "style": {
+              "border-width": "4px",
+              "border-color": "rgb(0,0,0)",
+              "line-color": "rgb(0,0,0)",
+              "target-arrow-color": "rgb(0,0,0)"
+            }
+          }
+        ],
+        "data": {},
+        "zoomingEnabled": true,
+        "userZoomingEnabled": true,
+        "zoom": 1,
+        "minZoom": 1e-50,
+        "maxZoom": 1e+50,
+        "panningEnabled": true,
+        "userPanningEnabled": true,
+        "pan": {
+          "x": 236,
+          "y": 3
+        },
+        "boxSelectionEnabled": true,
+        "renderer": {
+          "name": "canvas"
+        }
+      }
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": "c2541417-dd63-4769-95f9-b9178ea0e813"
+}

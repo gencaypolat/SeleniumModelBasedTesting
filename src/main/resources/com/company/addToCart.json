@@ -1,0 +1,1512 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "946cb656-f699-485b-9a5d-72c22ef5e3af",
+          "name": "e_goHomePage",
+          "sourceVertexId": "8c8a0901-5c61-4436-af27-60d52c84986e",
+          "targetVertexId": "96de6bee-8ad8-4d8b-9288-840f60987b35"
+        },
+        {
+          "id": "7d5b8134-033e-41bd-a67e-544afc028aed",
+          "name": "e_goLoginPage",
+          "sourceVertexId": "96de6bee-8ad8-4d8b-9288-840f60987b35",
+          "targetVertexId": "6a27115e-a5c0-4e31-9279-55454e034983"
+        },
+        {
+          "id": "7370063c-39e7-4ac8-8aef-5bd6295e9d25",
+          "name": "e_typeCredentials",
+          "sourceVertexId": "6a27115e-a5c0-4e31-9279-55454e034983",
+          "targetVertexId": "405c7e8a-2c9f-48f0-8674-8068aef7b970"
+        },
+        {
+          "id": "e2c33739-cd0c-4e91-bcaa-1df0286aed82",
+          "name": "e_selectCategory",
+          "sourceVertexId": "405c7e8a-2c9f-48f0-8674-8068aef7b970",
+          "targetVertexId": "2573588f-c124-48de-9efe-07ad5c6eccd6"
+        },
+        {
+          "id": "6fb2eb98-7624-4701-8db8-42af7bb1af98",
+          "name": "e_selectProduct",
+          "sourceVertexId": "2573588f-c124-48de-9efe-07ad5c6eccd6",
+          "targetVertexId": "6622810e-6b91-4295-a127-3dee7f5a1690"
+        },
+        {
+          "id": "f7b48f2c-cb5f-4a8c-aed1-c54b2a3b7ccf",
+          "name": "e_addProductToCart",
+          "sourceVertexId": "6622810e-6b91-4295-a127-3dee7f5a1690",
+          "targetVertexId": "0a3881e2-3908-4390-9023-ed73f8426558"
+        },
+        {
+          "id": "3fa41a1a-21a2-4d6f-b29a-b1bd27b241cd",
+          "name": "e_viewCart",
+          "sourceVertexId": "0a3881e2-3908-4390-9023-ed73f8426558",
+          "targetVertexId": "e5398316-0f48-4cd7-b8cd-880043d921e8"
+        },
+        {
+          "id": "cfbdf6a5-e6b5-400f-8108-47de85b0ed50",
+          "name": "e_removeProduct",
+          "sourceVertexId": "e5398316-0f48-4cd7-b8cd-880043d921e8",
+          "targetVertexId": "22d560ef-0128-4118-8206-6ec4acbc5e83"
+        },
+        {
+          "id": "2ad67c97-8745-4aca-8a0b-67440a9053ec",
+          "name": "e_goBackHomePage",
+          "sourceVertexId": "22d560ef-0128-4118-8206-6ec4acbc5e83",
+          "targetVertexId": "96de6bee-8ad8-4d8b-9288-840f60987b35"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "7cf71175-e127-4544-bf36-c3cb2296b1e0",
+      "name": "addToCart",
+      "startElementId": "8c8a0901-5c61-4436-af27-60d52c84986e",
+      "vertices": [
+        {
+          "id": "8c8a0901-5c61-4436-af27-60d52c84986e",
+          "name": "v_StartVertex",
+          "properties": {
+            "x": -147,
+            "y": 50
+          }
+        },
+        {
+          "id": "96de6bee-8ad8-4d8b-9288-840f60987b35",
+          "name": "v_homePage",
+          "properties": {
+            "x": 139,
+            "y": 48
+          }
+        },
+        {
+          "id": "6a27115e-a5c0-4e31-9279-55454e034983",
+          "name": "v_loginPage",
+          "properties": {
+            "x": 477,
+            "y": 48
+          }
+        },
+        {
+          "id": "2573588f-c124-48de-9efe-07ad5c6eccd6",
+          "name": "v_selectedCategory",
+          "properties": {
+            "x": 483,
+            "y": 484
+          }
+        },
+        {
+          "id": "405c7e8a-2c9f-48f0-8674-8068aef7b970",
+          "name": "v_openAccount",
+          "properties": {
+            "x": 476,
+            "y": 279
+          }
+        },
+        {
+          "id": "e5398316-0f48-4cd7-b8cd-880043d921e8",
+          "name": "v_cart",
+          "properties": {
+            "x": -145,
+            "y": 271
+          }
+        },
+        {
+          "id": "0a3881e2-3908-4390-9023-ed73f8426558",
+          "name": "v_cartProducts",
+          "properties": {
+            "x": -145,
+            "y": 477
+          }
+        },
+        {
+          "id": "6622810e-6b91-4295-a127-3dee7f5a1690",
+          "name": "v_selectedProduct",
+          "properties": {
+            "x": 170,
+            "y": 484
+          }
+        },
+        {
+          "id": "22d560ef-0128-4118-8206-6ec4acbc5e83",
+          "name": "v_emptyCart",
+          "properties": {
+            "x": 103,
+            "y": 272
+          }
+        },
+        {
+          "id": "00f51746-5565-4785-9430-b5484fe6cdf7",
+          "name": "v_NewVertex",
+          "properties": {
+            "x": -8.294540527014365e+32,
+            "y": -1.0024136619844693e+29
+          }
+        }
+      ],
+      "editor": {
+        "elements": {
+          "nodes": [
+            {
+              "data": {
+                "id": "8c8a0901-5c61-4436-af27-60d52c84986e",
+                "name": "v_StartVertex",
+                "color": "LightGreen"
+              },
+              "position": {
+                "x": -147,
+                "y": 50
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "96de6bee-8ad8-4d8b-9288-840f60987b35",
+                "name": "v_homePage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 139,
+                "y": 48
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "6a27115e-a5c0-4e31-9279-55454e034983",
+                "name": "v_loginPage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 477,
+                "y": 48
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "2573588f-c124-48de-9efe-07ad5c6eccd6",
+                "name": "v_selectedCategory",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 483,
+                "y": 484
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "405c7e8a-2c9f-48f0-8674-8068aef7b970",
+                "name": "v_openAccount",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 476,
+                "y": 279
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "e5398316-0f48-4cd7-b8cd-880043d921e8",
+                "name": "v_cart",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -145,
+                "y": 271
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "0a3881e2-3908-4390-9023-ed73f8426558",
+                "name": "v_cartProducts",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -145,
+                "y": 477
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "6622810e-6b91-4295-a127-3dee7f5a1690",
+                "name": "v_selectedProduct",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 170,
+                "y": 484
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "22d560ef-0128-4118-8206-6ec4acbc5e83",
+                "name": "v_emptyCart",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 103,
+                "y": 272
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "00f51746-5565-4785-9430-b5484fe6cdf7",
+                "name": "v_NewVertex",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -8.294540527014365e+32,
+                "y": -1.0024136619844693e+29
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            }
+          ],
+          "edges": [
+            {
+              "data": {
+                "id": "946cb656-f699-485b-9a5d-72c22ef5e3af",
+                "name": "e_NewEdge",
+                "source": "8c8a0901-5c61-4436-af27-60d52c84986e",
+                "target": "96de6bee-8ad8-4d8b-9288-840f60987b35",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7d5b8134-033e-41bd-a67e-544afc028aed",
+                "name": "e_goLoginPage",
+                "source": "96de6bee-8ad8-4d8b-9288-840f60987b35",
+                "target": "6a27115e-a5c0-4e31-9279-55454e034983",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7370063c-39e7-4ac8-8aef-5bd6295e9d25",
+                "name": "e_typeCredentials",
+                "source": "6a27115e-a5c0-4e31-9279-55454e034983",
+                "target": "405c7e8a-2c9f-48f0-8674-8068aef7b970",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "e2c33739-cd0c-4e91-bcaa-1df0286aed82",
+                "name": "e_selectCategory",
+                "source": "405c7e8a-2c9f-48f0-8674-8068aef7b970",
+                "target": "2573588f-c124-48de-9efe-07ad5c6eccd6",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "6fb2eb98-7624-4701-8db8-42af7bb1af98",
+                "name": "e_selectProduct",
+                "source": "2573588f-c124-48de-9efe-07ad5c6eccd6",
+                "target": "6622810e-6b91-4295-a127-3dee7f5a1690",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "f7b48f2c-cb5f-4a8c-aed1-c54b2a3b7ccf",
+                "name": "e_addProductToCart",
+                "source": "6622810e-6b91-4295-a127-3dee7f5a1690",
+                "target": "0a3881e2-3908-4390-9023-ed73f8426558",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "3fa41a1a-21a2-4d6f-b29a-b1bd27b241cd",
+                "name": "e_viewCart",
+                "source": "0a3881e2-3908-4390-9023-ed73f8426558",
+                "target": "e5398316-0f48-4cd7-b8cd-880043d921e8",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "cfbdf6a5-e6b5-400f-8108-47de85b0ed50",
+                "name": "e_removeProduct",
+                "source": "e5398316-0f48-4cd7-b8cd-880043d921e8",
+                "target": "22d560ef-0128-4118-8206-6ec4acbc5e83",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "2ad67c97-8745-4aca-8a0b-67440a9053ec",
+                "name": "e_goBackHomePage",
+                "source": "22d560ef-0128-4118-8206-6ec4acbc5e83",
+                "target": "96de6bee-8ad8-4d8b-9288-840f60987b35",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            }
+          ]
+        },
+        "style": [
+          {
+            "selector": "core",
+            "style": {
+              "active-bg-size": "0px"
+            }
+          },
+          {
+            "selector": "node",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "text-valign": "center",
+              "text-halign": "center",
+              "shape": "roundrectangle",
+              "width": "label",
+              "height": "label",
+              "color": "rgb(0,0,0)",
+              "background-color": "data(color)",
+              "line-color": "data(color)",
+              "padding": "10px"
+            }
+          },
+          {
+            "selector": "edge",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "curve-style": "bezier",
+              "text-rotation": "autorotate",
+              "target-arrow-shape": "triangle",
+              "width": "4px",
+              "line-color": "data(color)",
+              "target-arrow-color": "data(color)",
+              "background-color": "data(color)"
+            }
+          },
+          {
+            "selector": ":loop",
+            "style": {
+              "curve-style": "unbundled-bezier",
+              "control-point-step-size": "60px"
+            }
+          },
+          {
+            "selector": ":selected",
+            "style": {
+              "border-width": "4px",
+              "border-color": "rgb(0,0,0)",
+              "line-color": "rgb(0,0,0)",
+              "target-arrow-color": "rgb(0,0,0)"
+            }
+          }
+        ],
+        "data": {},
+        "zoomingEnabled": true,
+        "userZoomingEnabled": true,
+        "zoom": 13.182567385564072,
+        "minZoom": 1e-50,
+        "maxZoom": 1e+50,
+        "panningEnabled": true,
+        "userPanningEnabled": true,
+        "pan": {
+          "x": 775.8256738556408,
+          "y": -2592.3473922096605
+        },
+        "boxSelectionEnabled": true,
+        "renderer": {
+          "name": "canvas"
+        }
+      }
+    },
+    {
+      "edges": [
+        {
+          "id": "62e1e4bc-4a24-4530-9e0b-26aaa528dd7d",
+          "name": "e_goHomePage",
+          "sourceVertexId": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+          "targetVertexId": "820e2ca4-373d-465e-af39-981acd5fdb5d"
+        },
+        {
+          "id": "401976bf-d1d7-4282-aa22-40ae629f9b2f",
+          "name": "e_goSelectedCategory",
+          "sourceVertexId": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+          "targetVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813"
+        },
+        {
+          "id": "34b43d33-8ee2-4bfe-ab6a-43a915f0e8cf",
+          "name": "e_goSelectedProduct",
+          "sourceVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813",
+          "targetVertexId": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1"
+        },
+        {
+          "id": "eaddb910-b3b2-44f2-aab1-2c6da058a647",
+          "name": "e_goBackHomePage",
+          "sourceVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813",
+          "targetVertexId": "820e2ca4-373d-465e-af39-981acd5fdb5d"
+        },
+        {
+          "id": "d163d748-2fb4-42f2-a312-6242078380b3",
+          "name": "e_goBackSelectedCategory",
+          "sourceVertexId": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+          "targetVertexId": "c2541417-dd63-4769-95f9-b9178ea0e813"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "b9228e0e-ad2c-4176-8836-ea11f7bc4c77",
+      "name": "searchProduct",
+      "startElementId": "8c8a0901-5c61-4436-af27-60d52c84986e",
+      "vertices": [
+        {
+          "id": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+          "name": "v_StartVertex",
+          "properties": {
+            "x": -321.2473762661401,
+            "y": 1.2041643699647508
+          }
+        },
+        {
+          "id": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+          "name": "v_homePage",
+          "properties": {
+            "x": -16.795555594941106,
+            "y": -2.74207279140105
+          }
+        },
+        {
+          "id": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+          "name": "v_selectedProduct",
+          "properties": {
+            "x": 357.3958406344813,
+            "y": 325.43542318096115
+          }
+        },
+        {
+          "id": "c2541417-dd63-4769-95f9-b9178ea0e813",
+          "name": "v_selectedCategoryPage",
+          "properties": {
+            "x": 344.097086748847,
+            "y": -3.064649823206267
+          }
+        }
+      ],
+      "editor": {
+        "elements": {
+          "edges": [
+            {
+              "data": {
+                "id": "d163d748-2fb4-42f2-a312-6242078380b3",
+                "name": "e_goBackSelectedCategory",
+                "source": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+                "target": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "eaddb910-b3b2-44f2-aab1-2c6da058a647",
+                "name": "e_goBackHomePage",
+                "source": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "target": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "34b43d33-8ee2-4bfe-ab6a-43a915f0e8cf",
+                "name": "e_goSelectedProduct",
+                "source": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "target": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "401976bf-d1d7-4282-aa22-40ae629f9b2f",
+                "name": "e_goSelectedCategory",
+                "source": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "target": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "62e1e4bc-4a24-4530-9e0b-26aaa528dd7d",
+                "name": "e_goHomePage",
+                "source": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+                "target": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            }
+          ],
+          "nodes": [
+            {
+              "data": {
+                "id": "c2541417-dd63-4769-95f9-b9178ea0e813",
+                "name": "v_selectedCategoryPage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 344.097086748847,
+                "y": -3.064649823206267
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7ee9fdc5-0ce0-466c-b951-d5f3b5091fa1",
+                "name": "v_selectedProduct",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 357.3958406344813,
+                "y": 325.43542318096115
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "820e2ca4-373d-465e-af39-981acd5fdb5d",
+                "name": "v_homePage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -16.795555594941106,
+                "y": -2.74207279140105
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "02852e59-e1fe-4c61-a004-06d7b02e9d8e",
+                "name": "v_StartVertex",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -321.2473762661401,
+                "y": 1.2041643699647508
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            }
+          ]
+        },
+        "style": [
+          {
+            "selector": "core",
+            "style": {
+              "active-bg-size": "0px"
+            }
+          },
+          {
+            "selector": "node",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "text-valign": "center",
+              "text-halign": "center",
+              "shape": "roundrectangle",
+              "width": "label",
+              "height": "label",
+              "color": "rgb(0,0,0)",
+              "background-color": "data(color)",
+              "line-color": "data(color)",
+              "padding": "10px"
+            }
+          },
+          {
+            "selector": "edge",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "curve-style": "bezier",
+              "text-rotation": "autorotate",
+              "target-arrow-shape": "triangle",
+              "width": "4px",
+              "line-color": "data(color)",
+              "target-arrow-color": "data(color)",
+              "background-color": "data(color)"
+            }
+          },
+          {
+            "selector": ":loop",
+            "style": {
+              "curve-style": "unbundled-bezier",
+              "control-point-step-size": "60px"
+            }
+          },
+          {
+            "selector": ":selected",
+            "style": {
+              "border-width": "4px",
+              "border-color": "rgb(0,0,0)",
+              "line-color": "rgb(0,0,0)",
+              "target-arrow-color": "rgb(0,0,0)"
+            }
+          }
+        ],
+        "data": {},
+        "zoomingEnabled": true,
+        "userZoomingEnabled": true,
+        "zoom": 1,
+        "minZoom": 1e-50,
+        "maxZoom": 1e+50,
+        "panningEnabled": true,
+        "userPanningEnabled": true,
+        "pan": {
+          "x": 390,
+          "y": 130
+        },
+        "boxSelectionEnabled": true,
+        "renderer": {
+          "name": "canvas"
+        }
+      }
+    },
+    {
+      "edges": [
+        {
+          "id": "478e89e0-3a8d-413e-ba3a-dfed705f1068",
+          "name": "e_goLoginPage",
+          "sourceVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+          "targetVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5"
+        },
+        {
+          "id": "22743ab2-cccb-48ea-ab60-cbd38e438097",
+          "name": "e_typeCredentials",
+          "sourceVertexId": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+          "targetVertexId": "5e5d71a6-29cd-42db-b539-29b515643858"
+        },
+        {
+          "id": "074418cd-7ebe-48a7-ae38-596498d01d49",
+          "name": "e_",
+          "sourceVertexId": "5e5d71a6-29cd-42db-b539-29b515643858",
+          "targetVertexId": "ffc85707-27df-4284-b822-e200809683d8"
+        },
+        {
+          "id": "ec7a4ccf-8b36-4ec1-a2b5-317ef8134507",
+          "name": "e_goHomePage",
+          "sourceVertexId": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+          "targetVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3"
+        },
+        {
+          "id": "f8f70bba-7949-4c9a-9476-3ae42637a362",
+          "name": "e_addProduct",
+          "sourceVertexId": "e52c8519-cc33-4bde-a697-08f0d0b019ce",
+          "targetVertexId": "2444a7c1-9107-4763-a02e-de4501fc9a25"
+        },
+        {
+          "id": "3ab86be9-366f-468f-8877-87f710bc4d3c",
+          "name": "e_viewCart",
+          "sourceVertexId": "2444a7c1-9107-4763-a02e-de4501fc9a25",
+          "targetVertexId": "ee6c5374-df72-4a5c-b6ec-6cba0eba917e"
+        },
+        {
+          "id": "53439b44-33a1-4f18-8f5d-a807888ee56f",
+          "name": "e_removeProduct",
+          "sourceVertexId": "ee6c5374-df72-4a5c-b6ec-6cba0eba917e",
+          "targetVertexId": "d85f764a-864d-4a8e-b782-2a43f81b1c6c"
+        },
+        {
+          "id": "c9742662-e6f6-4c90-864b-733041e6d72c",
+          "name": "e_goBackHomePage",
+          "sourceVertexId": "d85f764a-864d-4a8e-b782-2a43f81b1c6c",
+          "targetVertexId": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3"
+        },
+        {
+          "id": "51d1c7d0-9126-447d-9569-c4965de7e2ee",
+          "name": "e_selectProduct",
+          "sourceVertexId": "ffc85707-27df-4284-b822-e200809683d8",
+          "targetVertexId": "e52c8519-cc33-4bde-a697-08f0d0b019ce"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "88c34d04-118d-43fb-9467-db2f446ffd10",
+      "name": "login",
+      "startElementId": "8c8a0901-5c61-4436-af27-60d52c84986e",
+      "vertices": [
+        {
+          "id": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+          "name": "v_homePage",
+          "properties": {
+            "x": 195,
+            "y": 39
+          }
+        },
+        {
+          "id": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+          "name": "v_loginPage",
+          "properties": {
+            "x": 455,
+            "y": 37
+          }
+        },
+        {
+          "id": "ffc85707-27df-4284-b822-e200809683d8",
+          "name": "v_goSelectedCategory",
+          "properties": {
+            "x": 459,
+            "y": 403
+          }
+        },
+        {
+          "id": "5e5d71a6-29cd-42db-b539-29b515643858",
+          "name": "v_openAccount",
+          "properties": {
+            "x": 458,
+            "y": 249
+          }
+        },
+        {
+          "id": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+          "name": "v_StartVertex",
+          "properties": {
+            "x": -149.90341731432213,
+            "y": 43.51607844527337
+          }
+        },
+        {
+          "id": "e52c8519-cc33-4bde-a697-08f0d0b019ce",
+          "name": "v_selectedProduct",
+          "properties": {
+            "x": 149,
+            "y": 414
+          }
+        },
+        {
+          "id": "2444a7c1-9107-4763-a02e-de4501fc9a25",
+          "name": "v_cartProducts",
+          "properties": {
+            "x": -153,
+            "y": 408
+          }
+        },
+        {
+          "id": "ee6c5374-df72-4a5c-b6ec-6cba0eba917e",
+          "name": "v_cart",
+          "properties": {
+            "x": -167,
+            "y": 177
+          }
+        },
+        {
+          "id": "d85f764a-864d-4a8e-b782-2a43f81b1c6c",
+          "name": "v_emptyCart",
+          "properties": {
+            "x": 142,
+            "y": 266
+          }
+        }
+      ],
+      "editor": {
+        "elements": {
+          "edges": [
+            {
+              "data": {
+                "id": "c9742662-e6f6-4c90-864b-733041e6d72c",
+                "name": "e_goBackHomePage",
+                "source": "d85f764a-864d-4a8e-b782-2a43f81b1c6c",
+                "target": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "f8f70bba-7949-4c9a-9476-3ae42637a362",
+                "name": "e_addProduct",
+                "source": "e52c8519-cc33-4bde-a697-08f0d0b019ce",
+                "target": "2444a7c1-9107-4763-a02e-de4501fc9a25",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "074418cd-7ebe-48a7-ae38-596498d01d49",
+                "name": "e_",
+                "source": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "target": "ffc85707-27df-4284-b822-e200809683d8",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "53439b44-33a1-4f18-8f5d-a807888ee56f",
+                "name": "e_removeProduct",
+                "source": "ee6c5374-df72-4a5c-b6ec-6cba0eba917e",
+                "target": "d85f764a-864d-4a8e-b782-2a43f81b1c6c",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "51d1c7d0-9126-447d-9569-c4965de7e2ee",
+                "name": "e_selectProduct",
+                "source": "ffc85707-27df-4284-b822-e200809683d8",
+                "target": "e52c8519-cc33-4bde-a697-08f0d0b019ce",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "3ab86be9-366f-468f-8877-87f710bc4d3c",
+                "name": "e_viewCart",
+                "source": "2444a7c1-9107-4763-a02e-de4501fc9a25",
+                "target": "ee6c5374-df72-4a5c-b6ec-6cba0eba917e",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "ec7a4ccf-8b36-4ec1-a2b5-317ef8134507",
+                "name": "e_goHomePage",
+                "source": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+                "target": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "478e89e0-3a8d-413e-ba3a-dfed705f1068",
+                "name": "e_goLoginPage",
+                "source": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "target": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "22743ab2-cccb-48ea-ab60-cbd38e438097",
+                "name": "e_typeCredentials",
+                "source": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "target": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            }
+          ],
+          "nodes": [
+            {
+              "data": {
+                "id": "d85f764a-864d-4a8e-b782-2a43f81b1c6c",
+                "name": "v_emptyCart",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 142,
+                "y": 266
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "ee6c5374-df72-4a5c-b6ec-6cba0eba917e",
+                "name": "v_cart",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -167,
+                "y": 177
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "4d522210-8be3-40ca-a086-52dc9c55ada2",
+                "name": "v_StartVertex",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -149.90341731432213,
+                "y": 43.51607844527337
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "ffc85707-27df-4284-b822-e200809683d8",
+                "name": "v_goSelectedCategory",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 459,
+                "y": 403
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "7cd2420e-d744-4c30-889e-c9b32236e9b5",
+                "name": "v_loginPage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 455,
+                "y": 37
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "c3b9ad10-ffb7-495d-bdc8-5e8f8cec9ed3",
+                "name": "v_homePage",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 195,
+                "y": 39
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "5e5d71a6-29cd-42db-b539-29b515643858",
+                "name": "v_openAccount",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 458,
+                "y": 249
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "e52c8519-cc33-4bde-a697-08f0d0b019ce",
+                "name": "v_selectedProduct",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": 149,
+                "y": 414
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "2444a7c1-9107-4763-a02e-de4501fc9a25",
+                "name": "v_cartProducts",
+                "color": "LightSteelBlue"
+              },
+              "position": {
+                "x": -153,
+                "y": 408
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            }
+          ]
+        },
+        "style": [
+          {
+            "selector": "core",
+            "style": {
+              "active-bg-size": "0px"
+            }
+          },
+          {
+            "selector": "node",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "text-valign": "center",
+              "text-halign": "center",
+              "shape": "roundrectangle",
+              "width": "label",
+              "height": "label",
+              "color": "rgb(0,0,0)",
+              "background-color": "data(color)",
+              "line-color": "data(color)",
+              "padding": "10px"
+            }
+          },
+          {
+            "selector": "edge",
+            "style": {
+              "label": "data(name)",
+              "text-wrap": "wrap",
+              "curve-style": "bezier",
+              "text-rotation": "autorotate",
+              "target-arrow-shape": "triangle",
+              "width": "4px",
+              "line-color": "data(color)",
+              "target-arrow-color": "data(color)",
+              "background-color": "data(color)"
+            }
+          },
+          {
+            "selector": ":loop",
+            "style": {
+              "curve-style": "unbundled-bezier",
+              "control-point-step-size": "60px"
+            }
+          },
+          {
+            "selector": ":selected",
+            "style": {
+              "border-width": "4px",
+              "border-color": "rgb(0,0,0)",
+              "line-color": "rgb(0,0,0)",
+              "target-arrow-color": "rgb(0,0,0)"
+            }
+          }
+        ],
+        "data": {},
+        "zoomingEnabled": true,
+        "userZoomingEnabled": true,
+        "zoom": 1,
+        "minZoom": 1e-50,
+        "maxZoom": 1e+50,
+        "panningEnabled": true,
+        "userPanningEnabled": true,
+        "pan": {
+          "x": 236,
+          "y": 3
+        },
+        "boxSelectionEnabled": true,
+        "renderer": {
+          "name": "canvas"
+        }
+      }
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": null
+}
